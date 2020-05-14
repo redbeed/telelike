@@ -1,0 +1,25 @@
+{
+	"name": "telelike",
+	"version": "0.0.1",
+	"description": "What if Userlike meets Telegram?",
+	"main": "index.js",
+	"scripts": {
+		"server": "deno run --allow-net --allow-read ./server/app.ts",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/redbeed/telelike.git"
+	},
+	"keywords": [
+		"telegram",
+		"userlike",
+		"chat"
+	],
+	"author": "redbeed, kevinkub",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/redbeed/telelike/issues"
+	},
+	"homepage": "https://github.com/redbeed/telelike#readme",
+}
